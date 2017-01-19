@@ -1,0 +1,109 @@
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+.wrapper {
+  background-image: url("../skateboard-images/bg.jpg");
+}
+.post {
+  background-color: white;
+  padding: 5px;
+  height: 425px;
+}
+.subscribe{
+
+}
+
+.social-media{
+  font-size: 30px;
+  padding: 10px;
+  a{
+    padding: 20px;
+
+  }
+  .dots{
+    background-color: none;
+    color: #FFFFFF
+  }
+  .facebook{
+    background-color: #3C4D84;
+    }
+  .rss{
+    background-color: #C98D3B;
+    color: #D7AB68;
+  }
+  .twitter{
+    background-color: #6B8EC5;
+    color: #91A9D2;
+  }
+  .youtube{
+    background-color: #7C271F;
+    color: #C06A63;
+  }
+}
+.button{
+background-color: #B12B32;
+}
+
+.banner{
+  background-image: url("../skateboard-images/top-image.png");
+  background-size: cover;
+  background-position: 0 -87px;
+}
+
+.banner::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  opacity: .3;
+  background-image: url("../skateboard-images/grid.png");
+}
+.jumbotron{
+  position: relative;
+  padding-right: 5px;
+  padding-left: 5px;
+  border: solid white 3px;
+  height: 350px;
+  overflow: hidden;
+}
+
+
+.skateboard-images{
+  background-color: white;
+  padding: 2px;
+  border-top: 100px;
+}
+.skateboard-images img{
+  padding: 3px;
+  width: 100px;
+}
+.contact{
+  background-color: white;
+}
+
+.contact-text{
+  width: 600px;
+  background-color: blue;
+}
+.social-media2{
+  font-size: 10px;
+  padding: 10px;
+  a{
+    padding: 20px;
+  }
+}
+  .facebook2{
+    background-color: #4F4F4F;
+  }
+  .rss2{
+    background-color: #AEAEAE;
+  }
+  .twitter2{
+    background-color: #7B7B7B;
+  }
+.youtube2{
+  background-color: #7B7B7B;
+}
